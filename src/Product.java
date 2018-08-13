@@ -92,7 +92,7 @@ public class Product {
 	//Instance method 
 	boolean buy(){
 		if(this.quantity > 0) {
-			--this.quantity;
+			this.quantity--;
 			return true;
 		} 
 		else {
